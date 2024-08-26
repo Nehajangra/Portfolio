@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#header{
+    height: 71px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2a2a;
+    color:  rgba(255, 255, 255, 0.5);
+}
+#header .head-container{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .head-left{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    margin-left: 10px;
+}
+#header .head-right{
+    height: 100%;
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px 40px;
+    margin-right: 200px;
+}
+.head-right a{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+#header .head-right a:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* font-family: "Caveat", cursive; */
+
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #141516; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141516;
+}
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
