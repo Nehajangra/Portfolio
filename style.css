@@ -56,10 +56,10 @@ body{
     text-decoration: none;
 }
 #header .sidebar{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 70%;
     width: 250px;
     z-index: 999;
     background-color: #2b2a2a ;
@@ -68,7 +68,11 @@ body{
     align-items: flex-start;
     justify-content: flex-start;
     gap: 60px;
-    padding-left: 40px ;
+    padding-left: 30px ;
+    padding-top: 10px;
+}
+#header .sidebar .close{
+    margin-left: 170px;
 }
 #header .sidebar a{
     color: rgba(255, 255, 255, 0.5);
@@ -85,12 +89,13 @@ body{
 }
 @media (max-width:1024px){
     #header .head-left{
-        font-size: 20px;
+        font-size: 30px;
+        width: 400px;
     }
 }
 @media(max-width: 400px){
     #header .sidebar{
-        width: 100%;
+        width: 60%;
     }
 }
 @media(min-width:800px){
@@ -119,7 +124,7 @@ main{
 }
 
 main .main-container{
-    height: 400px;
+    height: 500px;
     width: 60%;
     position: absolute;
     display: flex;
@@ -128,7 +133,17 @@ main .main-container{
     color: #fff;
     flex-direction: column;
     background-repeat: no-repeat;
-    font-size: 30px;
+    font-size: 40px;
+}
+main .instagram{
+    background-color: #2b2a2a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 0px #2b2a2a ;
 }
 @media(max-width:600px){
     #particles-js .main-container{
@@ -137,19 +152,13 @@ main .main-container{
     }
 }
 
-  /* ---- stats.js ---- */
- 
-  
-  /* #stats,
-  .count-particles{
-    -webkit-user-select: none;
-  }
-  
-  #stats{
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
-  }
-  
-  .count-particles{
-    border-radius: 0 0 3px 3px;
-  } */
+main .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+main .icons a svg{
+    color: #fff;
+    text-decoration: none;
+}
