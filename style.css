@@ -15,6 +15,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #2b2a2a;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 #header .head-container{
     height: 50px;
@@ -108,13 +111,16 @@ body{
     }
 
 }
-main{
+article{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #141516;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 } 
 
 #particles-js{
@@ -123,7 +129,7 @@ main{
     position: absolute;
 }
 
-main .main-container{
+article .main-container{
     height: 500px;
     width: 60%;
     position: absolute;
@@ -135,7 +141,7 @@ main .main-container{
     background-repeat: no-repeat;
     font-size: 40px;
 }
-main .instagram{
+article .instagram{
     background-color: #2b2a2a;
     width: 50px;
     height: 50px;
@@ -146,19 +152,172 @@ main .instagram{
     box-shadow: 0px 0px 0px 0px #2b2a2a ;
 }
 @media(max-width:600px){
-    #particles-js .main-container{
+    #particles-js .article-container{
         font-size: 25px;
         width: 100%;
     }
 }
 
-main .icons{
+article .icons{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 29px;
 }
-main .icons a svg{
+article .icons a svg{
     color: #fff;
     text-decoration: none;
+}
+article .image1{
+    border-radius: 50%;
+}
+
+
+/* ---------------Experience section styling */
+/* font-family: "Roboto", sans-serif; */
+
+
+#header .exper-head{
+    font-size: 40px;
+    width: 200px;
+    font-family: "Dancing Script", cursive;
+
+}
+#experience{
+    height: 2000px;
+    width: 100vw;
+    background-color: #141516;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+#experience .exper-container{
+    height: 1100px;
+    width: 1400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#experience .first-exper{
+    height: 668px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+#experience .left-exper1{
+    height: 552px;
+    width: 663px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#experience .right-exper1{
+    height: 552px;
+    width: 663px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    flex-direction: column;
+    font-family: "New Amsterdam", sans-serif;
+}
+#experience .highlight{
+    color: blue;
+}
+#experience .small{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+#experience .center-exper{
+    height: 70px;
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+    font-family: "New Amsterdam", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#experience .last-exper{
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+#experience .meta{
+    height: 400px;
+    width: 1210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10%;
+}
+#experience .meta-left{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#experience .meta-right{
+    height: 300px;
+    width: 910px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2a2a;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0px 15px 15px 0px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+#experience .qspider{
+    height: 400px;
+    width: 1210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#experience .qspider-left{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#experience .qspider-right{
+    height: 300px;
+    width: 910px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2a2a;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0px 15px 15px 0px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+#experience  .center3{
+    height: 45px;
+    width: 80%;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#experience .heading{
+    font-size: 30px;
+  
+
 }
