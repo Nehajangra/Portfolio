@@ -432,90 +432,133 @@ article .image1{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media(min-width: 600px) {
-    .first-exper, .last-exper {
-        flex-wrap: nowrap;
-    }
-
-    .left-exper1, .right-exper1, .meta-left, .meta-right, .qspider-left, .qspider-right {
-        flex: 1;
-        max-width: 48%;
-    }
-
-    .meta img, .qspider img {
-        border-radius: 0 0 0 0;
-    }
+/*  about section styling */
+#about{
+    height: 1500px;
+    width: 100vw;
+    background-color: #141516;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
-
-@media(min-width: 1024px) {
-    .exper-container {
-        padding: 0 20px;
-    }
-
-    .meta, .qspider {
-        flex-direction: row;
-    }
-
-    .meta img, .qspider img {
-        border-radius: 0 0 0 15px;
-    }
-
-    .meta-right, .qspider-right {
-        flex: 3;
-        padding: 20px;
-    }
+#header .about-head{
+    width: 300px;
+    font-family: "Baskervville SC", serif;
+  
 }
-
-@media(max-width: 599px) {
-    .hideOnMobile {
-        display: none;
-    }
-
-    .hideSidebar {
-        display: block;
-    }
-
-    .meta, .qspider {
-        border-radius: 0;
-    }
-
-    .sidebar {
-        display: flex;
-    }
-
-    .head-left {
-        font-size: 30px;
-    }
-} */
-
-
-
-
-
-
-
-
-
-
-
+#about .about-container{
+    height: 1200px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#about .about-part{
+    height: 600px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+#about .about-left{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#about .about-img{
+    border-radius: 50px;
+}
+#about .about-right{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+#about .highlight{
+    font-size: 40px;
+    color: blue;
+    font-family: "New Amsterdam", sans-serif;
+    margin-right: 400px;
+}
+#about .skill-heading{
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: "New Amsterdam", sans-serif;
+    flex-direction: row;
+    margin-left: 380px;
+}
+#about .skill-part{
+    height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+#about .skill1{
+    height: 90px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px
+}
+#about .skill-html{
+    height: 60px;
+    width: 170px;
+    background-color: #2b2a2a;
+    border-radius: 7px;
+    box-shadow: 10px 4px 0px #FFDE59;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #fff; 
+}
+#about .skill-css{
+    height: 60px;
+    width: 170px;
+    background-color: #2b2a2a;
+    border-radius: 7px;
+    box-shadow: 10px 4px 0px #eed880;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#about .skill-js{
+    height: 60px;
+    width: 200px;
+    background-color: #2b2a2a;
+    border-radius: 7px;
+    box-shadow: 10px 4px 0px #FFDE59;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
