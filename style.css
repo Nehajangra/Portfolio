@@ -197,9 +197,9 @@ article .image1{
     }
 }
 @media (max-width:1024px){
-    #experience .head-left{
+    #header .head-left{
         font-size: 30px;
-        width: 400px;
+        width: 500px;
     }
 }
 @media(max-width: 400px){
@@ -292,6 +292,9 @@ article .image1{
     flex-direction: row;
     border-radius: 10%;
 }
+#experience .circle-class{
+    border-radius: 15px 0px 0px 15px;
+}
 #experience .meta-left{
     height: 300px;
     width: 300px;
@@ -352,7 +355,7 @@ article .image1{
 }
 @media(max-width:800px){
     #experience{
-        height: 3000px;
+        height: 2300px;
     }
     #experience .exper-container{
         width: 500px;
@@ -374,7 +377,59 @@ article .image1{
         padding-left: 90px;
     }
    
-
+    #experience .last-exper{
+        flex-direction: column;
+        width: 300px;
+        margin-top: 60px;
+    }
+    #experience .meta {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 720px;
+    }
+    #experience .meta-right .heading{
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        font-size: 30px;
+        margin-left: 25px;
+        font-family: "New Amsterdam", sans-serif;
+    }
+    #experience .meta-right{
+        width: 300px;      
+        height: 800px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #experience .meta-right .center3{
+        height: 90px;
+    }
+    #experience .qspider{
+        flex-direction: column;
+        width: 300px;
+        height: 900px;
+    }
+    #experience .qspider-right{
+        flex-direction: column;
+        width: 300px;
+        height: 350px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #experience .circle-class{
+        border-radius: 10px 10px 0px 0px;
+    }
+  
+    #experience .qspider-right .heading{
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        font-size: 30px;
+        margin-left: 25px;
+        font-family: "New Amsterdam", sans-serif;
+    }
+    #experience .qspider-right .center3{
+        height: 60px;
+    }
 }
 
 
